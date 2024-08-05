@@ -10,7 +10,8 @@ public class SearchResult {
     @JsonProperty
     private String kind;
 
-    public SearchResult() { }
+    public SearchResult() {
+    }
 
     public SearchResult(String city, String title, String kind) {
         this.city = city;
@@ -29,4 +30,3 @@ public class SearchResult {
     public String getKind() {
         return kind;
     }
-}
